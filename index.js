@@ -22,10 +22,10 @@ class Circle {
   }
   
   get circumference() {
-    return (this.radius* 2)* Math.pi;
+    return (this.radius*2)* Math.pi;
   }
   
   get area() {
-    return Math.pi*(this.radius * this.radius);
+    return Math.pi*(this.radius*this.radius);
   }
 }
