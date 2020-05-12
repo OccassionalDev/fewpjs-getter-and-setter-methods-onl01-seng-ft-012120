@@ -6,7 +6,7 @@ class Circle {
   }
   
   set diamter(d) {
-    this.diamter = this.radius*2;
+    this.radius = d/2;
   }
   
   set circumference() {
