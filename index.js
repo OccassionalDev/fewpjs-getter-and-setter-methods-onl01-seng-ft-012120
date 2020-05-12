@@ -18,14 +18,14 @@ class Circle {
   }
   
   get diamter() {
-    return this.diamter;
+    return this.radius*2;
   }
   
   get circumference() {
-    return this.circumference;
+    return this.diamter*Math.pi;
   }
   
   get area() {
-    return this.area;
+    return (Math.pi*this.radius)**2;
   }
 }
