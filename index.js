@@ -7,7 +7,7 @@ class Circle {
     this.radius = radius;
   }
   
-  set diamter(d) {
+  set diameter(d) {
     this.radius = d/2;
   }
   
@@ -19,7 +19,7 @@ class Circle {
     this.radius = Math.sqrt(a/pi);
   }
   
-  get diamter() {
+  get diameter() {
     return this.radius*2;
   }
   
