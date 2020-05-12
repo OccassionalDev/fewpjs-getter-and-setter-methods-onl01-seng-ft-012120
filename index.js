@@ -14,7 +14,7 @@ class Circle {
   }
   
   set area(a) {
-    this.area = Math.pow((Math.pi*this.radius), 2);
+    this.radius = Math.sqrt(a/Math.pi );
   }
   
   get diamter() {
