@@ -5,7 +5,27 @@ class Circle {
     this.radius = radius;
   }
   
-  get diamater() {
-    return this.radius*2;
+  set diamter(d) {
+    this.diamter = d;
+  }
+  
+  set circumference(c) {
+    this.circumference = c;
+  }
+  
+  set area(a) {
+    this.area = a;
+  }
+  
+  get diamter() {
+    return this.diamter;
+  }
+  
+  get circumference() {
+    return this.circumference;
+  }
+  
+  get area() {
+    return this.area;
   }
 }
