@@ -9,8 +9,8 @@ class Circle {
     this.radius = d/2;
   }
   
-  set circumference() {
-    this.circumference = (this.radius*2)*Math.pi;
+  set circumference(c) {
+    this.radius = c/(Math.pi * 2);
   }
   
   set area(a) {
